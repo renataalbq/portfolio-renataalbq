@@ -1,5 +1,5 @@
 import { Container, TextContainer, InfosContainer, CodeItem } from './styles';
-import picture from '../../assets/eunobg2.png';
+import picture from '../../assets/euimg.png';
 
 function Principal() {
   return (
@@ -12,12 +12,15 @@ function Principal() {
         <InfosContainer>
           <CodeItem data-aos="zoom-in">
             {/* \u007B unicode para abrir chaves */}
-            <span className="purple">Infos</span> {'\u007B'} 
+            <span className="purple">Sobre mim</span> {'\u007B'} 
             <div>
-              Nome: <span className="blue">Renata,</span>
+              Nome: <span className="blue">Renata Albuquerque,</span>
             </div>
             <div>
-              Sobrenome: <span className="blue">Albuquerque</span>
+              Idade: <span className="blue">23,</span>
+            </div>
+            <div>
+              Cidade: <span className="blue">João Pessoa - PB</span>
             </div>
             {'\u007D'}
             {/* \u007D unicode para fechar chaves */}
@@ -28,10 +31,12 @@ function Principal() {
               Curso: <span className="blue">Sistemas para Internet,</span>
             </div>
             <div>
-              Faculdade: <span className="blue">IFPB</span>
+              Instituição: <span className="blue">IFPB</span>
             </div>
             {'\u007D'}
           </CodeItem>
+
+
         </InfosContainer>
 
       </div>

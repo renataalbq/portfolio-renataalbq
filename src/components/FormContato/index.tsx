@@ -15,9 +15,8 @@ function FormContato() {
         }
         description={
           <>
-            preencha o formulário abaixo que
-            <br />
-            irei retornar em breve
+            preencha o formulário abaixo que irei retornar em breve
+
           </>
         }
       />

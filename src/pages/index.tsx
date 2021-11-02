@@ -36,10 +36,10 @@ export default function Home({ projetos }: HomeProps) {
   return (
     <HomeContainer>
     <Head>
-      <title>Home | Meu portfólio</title>
+      <title>Home | renata.albq</title>
       <meta
         name="description"
-        content="Meu portfólio"
+        content="Portfólio"
       />
       <meta property="og:image" content="/ogimage.png" />
       <meta property="og:image:secure_url" content="/ogimage.png" />
@@ -47,7 +47,7 @@ export default function Home({ projetos }: HomeProps) {
       <meta name="twitter:image:src" content="/ogimage.png" />
       <meta
         property="og:description"
-        content="Meu portfólio"
+        content="Portfólio"
       />
     </Head>
 

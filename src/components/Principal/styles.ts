@@ -8,7 +8,7 @@ export const Container = styled.section`
   justify-content: center;
   margin-top: 5rem;
   > img {
-    width: 40rem;
+    width: 30rem;
     flex: 1;
   }
   > div {

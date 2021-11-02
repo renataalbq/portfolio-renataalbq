@@ -8,12 +8,12 @@ export const Container = styled.div`
   gap: 0.5rem;
   h1 {
     color: ${({ theme }) => theme.primary};
-    font-size: 4.5rem;
+    font-size: 4.3rem;
   }
   h2 {
     color: ${({ theme }) => theme.secondary};
     font-weight: 300;
-    font-size: 3.5rem;
+    font-size: 2.0rem;
   }
   @media (max-width: 1000px) {
     h1 {
