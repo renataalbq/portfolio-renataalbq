@@ -1,5 +1,5 @@
 import { Container, TextContainer, InfosContainer, CodeItem } from './styles';
-import picture from '../../assets/euimg.png';
+import picture from '../../assets/illust.png';
 
 function Principal() {
   return (
@@ -7,12 +7,12 @@ function Principal() {
       <img src={picture} alt="Foto" />
       <div>
         <TextContainer>
-          <h2>Frontend/Mobile Developer</h2>
+          <h2>Fullstack Developer</h2>
         </TextContainer>
         <InfosContainer>
           <CodeItem data-aos="zoom-in">
             {/* \u007B unicode para abrir chaves */}
-            <span className="purple">Sobre mim</span> {'\u007B'} 
+            <span className="purple">Sobre mim</span> {'\u007B'}
             <div>
               Nome: <span className="blue">Renata Albuquerque,</span>
             </div>
@@ -35,13 +35,10 @@ function Principal() {
             </div>
             {'\u007D'}
           </CodeItem>
-
-
         </InfosContainer>
-
       </div>
     </Container>
   );
-};
+}
 
 export default Principal;

@@ -16,7 +16,8 @@ export default createGlobalStyle`
       border-radius: 10px;
     }
     ::-webkit-scrollbar-track{
-      background: ${({ theme }) => lighten(0.3, theme.primary)}; /*cor do scroll*/
+      background: ${({ theme }) =>
+        lighten(0.3, theme.primary)}; /*cor do scroll*/
     }
   }
   body {

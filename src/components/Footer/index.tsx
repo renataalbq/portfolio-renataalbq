@@ -1,4 +1,8 @@
-import { AiOutlineInstagram, AiOutlineGithub, AiFillLinkedin } from 'react-icons/ai';
+import {
+  AiOutlineInstagram,
+  AiOutlineGithub,
+  AiFillLinkedin
+} from 'react-icons/ai';
 import { Container } from './styles';
 
 function Footer() {
@@ -21,7 +25,9 @@ function Footer() {
         </button>
         <section>
           <AiOutlineInstagram
-            onClick={() => handleRedirect('https://instagram.com/renata.albqrq')}
+            onClick={() =>
+              handleRedirect('https://instagram.com/renata.albqrq')
+            }
           />
           <AiOutlineGithub
             onClick={() => handleRedirect('https://github.com/renataalbq')}

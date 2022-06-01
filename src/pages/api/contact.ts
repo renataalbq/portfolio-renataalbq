@@ -9,6 +9,7 @@ const clientId = process.env.CLIENT_ID;
 const clientSecret = process.env.CLIENT_SECRET;
 const refreshToken = process.env.REFRESH_TOKEN;
 
+// eslint-disable-next-line @typescript-eslint/naming-convention
 const OAuth2_client = new OAuth2(clientId, clientSecret);
 OAuth2_client.setCredentials({ refresh_token: refreshToken });
 

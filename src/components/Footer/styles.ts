@@ -48,7 +48,7 @@ export const Container = styled.footer`
 
       > section {
         gap: 0.5rem;
-        
+
         svg {
           width: 1.5rem;
           height: 1.5rem;

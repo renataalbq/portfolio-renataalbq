@@ -1,8 +1,7 @@
 import { AiFillHtml5 } from 'react-icons/ai';
-import { FaCss3Alt, FaReact } from 'react-icons/fa';
-import { IoLogoJavascript, IoLogoPython} from 'react-icons/io5';
-import { BsBootstrapFill } from 'react-icons/bs';
-import {GrMysql} from 'react-icons/gr'
+import { FaReact } from 'react-icons/fa';
+import { IoLogoAngular, IoLogoCss3, IoLogoJavascript } from 'react-icons/io5';
+import { DiPostgresql, DiJava, DiPython } from 'react-icons/di';
 import SectionTitle from '../SectionTitle';
 import ConhecimentoItem from './ConhecimentoItem';
 import { Container } from './styles';
@@ -13,13 +12,13 @@ function Conhecimentos() {
       <SectionTitle title="tecnologias" />
       <section>
         <ConhecimentoItem title="HTML" icon={<AiFillHtml5 />} />
-        <ConhecimentoItem title="CSS" icon={<FaCss3Alt />} />
-        <ConhecimentoItem title="Bootstrap" icon={<BsBootstrapFill />} />
+        <ConhecimentoItem title="CSS" icon={<IoLogoCss3 />} />
         <ConhecimentoItem title="Javascript" icon={<IoLogoJavascript />} />
         <ConhecimentoItem title="React" icon={<FaReact />} />
-        <ConhecimentoItem title="Mysql" icon={<GrMysql />} />
-        <ConhecimentoItem title="Python" icon={<IoLogoPython />} />
-
+        <ConhecimentoItem title="Angular" icon={<IoLogoAngular />} />
+        <ConhecimentoItem title="Java" icon={<DiJava />} />
+        <ConhecimentoItem title="Python" icon={<DiPython />} />
+        <ConhecimentoItem title="PostgreSQL" icon={<DiPostgresql />} />
       </section>
     </Container>
   );

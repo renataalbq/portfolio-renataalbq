@@ -8,16 +8,13 @@ function FormContato() {
       <SectionTitle
         title={
           <>
-            deseja entrar em  
+            deseja entrar em
             <br />
             contato comigo?
           </>
         }
         description={
-          <>
-            preencha o formulário abaixo que irei retornar em breve
-
-          </>
+          <>preencha o formulário abaixo que irei retornar em breve</>
         }
       />
 

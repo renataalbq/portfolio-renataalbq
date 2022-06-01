@@ -8,15 +8,17 @@ export const Container = styled.section`
   justify-content: center;
   margin-top: 5rem;
   > img {
-    width: 30rem;
+    width: 20rem;
     flex: 1;
+    margin-left: 10rem;
   }
   > div {
     flex: 4;
   }
   @media (max-width: 1450px) {
     > img {
-      width: 30rem;
+      width: 20rem;
+      margin-right: 15rem;
     }
     > div {
       flex: 1;
@@ -24,7 +26,7 @@ export const Container = styled.section`
   }
   @media (max-width: 1000px) {
     > img {
-      width: 22rem;
+      width: 20rem;
     }
   }
   @media (max-width: 700px) {

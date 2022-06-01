@@ -2,15 +2,16 @@ import { useEffect } from 'react';
 import Head from 'next/head';
 import { GetStaticProps } from 'next';
 import Prismic from '@prismicio/client';
-import { getPrismicClient } from '../services/prismic';
 import Aos from 'aos';
+import { getPrismicClient } from '../services/prismic';
 import 'aos/dist/aos.css';
 
 import Header from '../components/Header';
 import Principal from '../components/Principal';
 import Projetos from '../components/Projetos';
 import Conhecimentos from '../components/Conhecimentos';
-import FormContato from '../components/FormContato';
+import Experiencias from '../components/Experiencias';
+// import FormContato from '../components/FormContato';
 import Footer from '../components/Footer';
 
 import { HomeContainer } from '../styles/HomeStyles';
@@ -35,34 +36,27 @@ export default function Home({ projetos }: HomeProps) {
 
   return (
     <HomeContainer>
-    <Head>
-      <title>Home | renata.albq</title>
-      <meta
-        name="description"
-        content="Portfólio"
-      />
-      <meta property="og:image" content="/ogimage.png" />
-      <meta property="og:image:secure_url" content="/ogimage.png" />
-      <meta name="twitter:image" content="/ogimage.png" />
-      <meta name="twitter:image:src" content="/ogimage.png" />
-      <meta
-        property="og:description"
-        content="Portfólio"
-      />
-    </Head>
+      <Head>
+        <title>Home | renata.albq</title>
+        <meta name="description" content="Portfólio" />
+        <meta property="og:image" content="/ogimage.png" />
+        <meta property="og:image:secure_url" content="/ogimage.png" />
+        <meta name="twitter:image" content="/ogimage.png" />
+        <meta name="twitter:image:src" content="/ogimage.png" />
+        <meta property="og:description" content="Portfólio" />
+      </Head>
 
-    <Header />
+      <Header />
 
-    <main className="container">
-      <Principal />
-      <Projetos projetos={projetos} />
-      <Conhecimentos/>
-      <FormContato />
-    </main>
-    
-    <Footer />
+      <main className="container">
+        <Principal />
+        <Projetos projetos={projetos} />
+        <Conhecimentos />
+        <Experiencias />
+      </main>
 
-  </HomeContainer>
+      <Footer />
+    </HomeContainer>
   );
 }
 

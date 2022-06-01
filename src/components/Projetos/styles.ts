@@ -25,7 +25,7 @@ export const Container = styled.section`
 
   > button {
     background: ${({ theme }) => theme.button};
-    padding: 0.8rem 3rem;
+    padding: 0.8rem 2rem;
     border-radius: 0.5rem;
     border: none;
     transition: 0.5s;
@@ -36,7 +36,7 @@ export const Container = styled.section`
     a {
       text-transform: uppercase;
       color: #fff;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       font-weight: 300;
     }
 
@@ -52,7 +52,7 @@ export const Container = styled.section`
 export const ProjetoContainer = styled.div<ProjetoProps>`
   width: 100%;
   display: flex;
-  height: 25rem;
+  height: 20rem;
   align-items: flex-end;
   position: relative;
 
@@ -71,13 +71,13 @@ export const ProjetoContainer = styled.div<ProjetoProps>`
   }
 
   > button {
-    height: 4rem;
-    margin: 0 0 3rem 5rem;
+    height: 1rem;
+    margin: 0 0 3rem 2rem;
     background: none;
     border: none;
     a {
       color: #fff;
-      font-size: 2rem;
+      font-size: 1.4rem;
       font-weight: 300;
       display: flex;
       align-items: center;
@@ -87,7 +87,7 @@ export const ProjetoContainer = styled.div<ProjetoProps>`
   }
 
   > section {
-    width: 50rem;
+    width: 35rem;
     height: 100%;
     background: url(${props => props.imgUrl}) no-repeat center;
     background-size: cover;
@@ -190,7 +190,7 @@ export const ProjetoContainer = styled.div<ProjetoProps>`
   @media (max-width: 700px) {
     height: 17rem;
   }
-  
+
   @media (max-width: 450px) {
     > button {
       height: auto;
